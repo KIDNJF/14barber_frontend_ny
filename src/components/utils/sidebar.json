@@ -1,0 +1,169 @@
+[
+  {
+    "title": "Home",
+    "icon": "bi bi-house-fill",
+    "path": "/boards",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C",
+      "USER_U",
+      "BARBER_B"
+    ]
+  },
+  {
+    "title": "Sales",
+    "icon": "bi bi-bag-check-fill",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C"
+    ],
+    "childrens": [
+      {
+        "title": "Sales",
+        "icon": "bi bi-archive-fill",
+        "path": "/sale",
+        "role": [
+          "ADMIN_A",
+          "MANAGER_M",
+          "CASHIER_C"
+        ]
+      },
+      {
+        "title": "Sales History",
+        "icon": "bi bi-archive",
+        "path": "/sales/history",
+        "role": [
+          "ADMIN_A",
+          "MANAGER_M",
+          "CASHIER_C"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Appointment",
+    "icon": "bi bi-calendar3-fill",
+    "path": "/appointment",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C"
+    ]
+  },
+  {
+    "title": "Clients",
+    "icon": "bi bi-people-fill",
+    "path": "/client",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C",
+      "USER_U",
+      "BARBER_B"
+    ]
+  },
+  {
+    "title": "Team Member",
+    "icon": "bi bi-people-fill",
+    "path": "/team",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C",
+      "BARBER_B"
+    ]
+  },
+  {
+    "title": "Services",
+    "icon": "bi bi-gear-fill",
+    "path": "/service",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C",
+      "USER_U",
+      "BARBER_B"
+    ]
+  },
+  {
+    "title": "Product",
+    "icon": "bi bi-bag-fill",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C",
+      "USER_U",
+      "BARBER_B"
+    ],
+    "childrens": [
+      {
+        "title": "Product List",
+        "icon": "bi bi-bag-plus",
+        "path": "/product/list",
+        "role": [
+          "ADMIN_A",
+          "MANAGER_M",
+          "CASHIER_C",
+          "USER_U",
+          "BARBER_B"
+        ]
+      },
+      {
+        "title": "Purchase Order",
+        "icon": "bi bi-bookmark-plus",
+        "path": "/product/order",
+        "role": [
+          "ADMIN_A",
+          "MANAGER_M",
+          "CASHIER_C",
+          "USER_U",
+          "BARBER_B"
+        ]
+      },
+      {
+        "title": "Supplier",
+        "icon": "bi bi-cart-plus",
+        "path": "/product/supplier",
+        "role": [
+          "ADMIN_A",
+          "MANAGER_M",
+          "CASHIER_C",
+          "USER_U",
+          "BARBER_B"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Role & Permission",
+    "icon": "bi bi-file-plus-fill",
+    "path": "/permission",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C"
+    ]
+  },
+  {
+    "title": "Report",
+    "icon": "bi bi-activity",
+    "path": "/report/doc",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C"
+    ]
+  },
+  {
+    "title": "Expenses",
+    "icon": "bi bi-activity",
+    "path": "/expenses",
+    "role": [
+      "ADMIN_A",
+      "MANAGER_M",
+      "CASHIER_C"
+    ]
+  }
+]

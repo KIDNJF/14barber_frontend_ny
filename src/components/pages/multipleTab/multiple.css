@@ -1,0 +1,391 @@
+.OurUniqueness {
+  background-color: rgb(240, 233, 233);
+  width: 100%;
+  height: auto;
+  color: black;
+  padding: 50px;
+}
+.uniqueness-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.uniqueness-item {
+  width: 35%;
+  margin: 30px;
+  margin-top: -20px;
+  border-radius: 5px;
+  height: auto;
+  color: white;
+  background-image: linear-gradient(135deg, #97abff 10%, #08aefb 100%);
+  padding: 30px;
+}
+.uniqueness-item__heading {
+  margin-bottom: 20px;
+}
+.uniqueness-item--1 {
+  margin: 60px 30px 30px 30px;
+  display: block;
+  width: 55%;
+}
+
+.how-to-proceed-content {
+  margin: 30px;
+  width: 90%;
+  font-size: 28px;
+  padding: 30px;
+}
+
+.how-to-proceed-control {
+  width: 100%;
+  display: flex;
+  color: black;
+  box-shadow: 1px 5px 1px 5px rgba(0, 0, 0, 0.151);
+}
+.how-to-proceed-item {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+.how-to-proceed-item--1 {
+  width: 30%;
+  background-color: rgba(6, 101, 179, 0.993);
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+.how-to-proceed-item--1:hover {
+  /* background-color: blue; */
+  transition: all 1.3s ease-out;
+  background-color: rgba(6, 101, 179, 0.609);
+  color: white;
+}
+
+.how-to-proceed-item--2 {
+  width: 30%;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.how-to-proceed-item--2:hover {
+  transition: all 1.3s ease-out;
+  background-color: white;
+}
+.how-to-proceed-item--3 {
+  width: 30%;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+  background-color: rgba(6, 101, 179, 0.993);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.how-to-proceed-item--3:hover {
+  background-color: rgba(59, 136, 224, 0.993);
+  transition: all 1.3s ease-out;
+  color: white;
+}
+.how-to-proceed-item--4 {
+  width: 30%;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.how-to-proceed-item--4:hover {
+  transition: all 1.3s ease-out;
+  background-color: white;
+}
+
+.how-to-proceed-content-elig {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+  padding: 20px;
+  text-align: center;
+  height: fit-content;
+}
+.how-to-proceed-content-elig h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0px 30px 0px;
+}
+.how-to-proceed-content-elig p {
+  text-align: left;
+}
+.how-to-proceed-content-serv {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+  padding: 20px;
+  text-align: center;
+  height: fit-content;
+}
+.how-to-proceed-content-serv h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0px 30px 0px;
+}
+.how-to-proceed-content-serv p {
+  text-align: left;
+}
+.how-to-proceed-content-app {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+  padding: 20px;
+  text-align: center;
+  height: fit-content;
+}
+.how-to-proceed-content-app h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0px 30px 0px;
+}
+.how-to-proceed-content-app p {
+  text-align: left;
+}
+.how-to-proceed-content-rev {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+  padding: 20px;
+  height: fit-content;
+}
+.how-to-proceed-content-rev h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0px 30px 0px;
+}
+.how-to-proceed-content-rev p {
+  text-align: left;
+}
+.get-content-elig {
+  color: white;
+  border: none;
+  border-radius: 200px;
+  background-color: rgba(6, 101, 179, 0.993);
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 200px;
+  margin: 40px auto;
+  color: white;
+  height: fit-content;
+  cursor: pointer;
+}
+.get-content-serv {
+  background-color: rgba(6, 101, 179, 0.993);
+  background-image: linear-gradient(135deg, #c4cff84f 10%, #00248fcb 100%);
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 200px;
+  margin: 40px auto;
+  color: white;
+  height: fit-content;
+  cursor: pointer;
+}
+@media (max-width: 780px) {
+  .OurUniqueness {
+    position:relative;
+    background-color: rgb(240, 233, 233);
+    width: 97%;
+    height: auto;
+    color: black;
+    padding: 0px;
+  }
+  .uniqueness-container {
+    width: 97%;
+    height: auto;
+    display: block;
+  }
+  .uniqueness-item {
+
+    width: 97%;
+    margin: 0px auto;
+
+    margin-top: 10px;
+    border-radius: 5px;
+    height: auto;
+    color: white;
+    background-image: linear-gradient(135deg, #97abff 10%, #08aefb 100%);
+    padding: 30px;
+  }
+  .uniqueness-item__heading {
+    margin-bottom: 20px;
+  }
+  .uniqueness-item--1 {
+
+    margin: 0px auto;
+    display: block;
+    width:90%;
+
+  }
+  
+  .how-to-proceed-content {
+    margin: 10px;
+    width: 90%;
+    font-size: 28px;
+    padding: 10px;
+  }
+  
+  .how-to-proceed-control {
+    width: 100%;
+    display: flex;
+    color: black;
+    box-shadow: 1px 5px 1px 5px rgba(0, 0, 0, 0.151);
+  }
+  .how-to-proceed-item {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+  .how-to-proceed-item--1 {
+    width: 30%;
+    background-color: rgba(6, 101, 179, 0.993);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+  }
+  .how-to-proceed-item--1:hover {
+    /* background-color: blue; */
+    transition: all 1.3s ease-out;
+    background-color: rgba(6, 101, 179, 0.609);
+    color: white;
+  }
+  
+  .how-to-proceed-item--2 {
+    width: 30%;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .how-to-proceed-item--2:hover {
+    transition: all 1.3s ease-out;
+    background-color: white;
+  }
+  .how-to-proceed-item--3 {
+    width: 30%;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+    background-color: rgba(6, 101, 179, 0.993);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .how-to-proceed-item--3:hover {
+    background-color: rgba(59, 136, 224, 0.993);
+    transition: all 1.3s ease-out;
+    color: white;
+  }
+  .how-to-proceed-item--4 {
+    width: 30%;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .how-to-proceed-item--4:hover {
+    transition: all 1.3s ease-out;
+    background-color: white;
+  }
+  
+  .how-to-proceed-content-elig {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+  }
+  .how-to-proceed-content-elig h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+  }
+  .how-to-proceed-content-elig p {
+    text-align: left;
+  }
+  .how-to-proceed-content-serv {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+  }
+  .how-to-proceed-content-serv h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+  }
+  .how-to-proceed-content-serv p {
+    text-align: left;
+  }
+  .how-to-proceed-content-app {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+  }
+  .how-to-proceed-content-app h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+  }
+  .how-to-proceed-content-app p {
+    text-align: left;
+  }
+  .how-to-proceed-content-rev {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.116);
+    padding: 20px;
+    height: fit-content;
+  }
+  .how-to-proceed-content-rev h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+  }
+  .how-to-proceed-content-rev p {
+    text-align: left;
+  }
+  .get-content-elig {
+    color: white;
+    border: none;
+    border-radius: 200px;
+    background-color: rgba(6, 101, 179, 0.993);
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 200px;
+    margin: 40px auto;
+    color: white;
+    height: fit-content;
+    cursor: pointer;
+  }
+  .get-content-serv {
+    background-color: rgba(6, 101, 179, 0.993);
+    background-image: linear-gradient(135deg, #c4cff84f 10%, #00248fcb 100%);
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 200px;
+    margin: 40px auto;
+    color: white;
+    height: fit-content;
+    cursor: pointer;
+  }
+}

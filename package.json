@@ -1,0 +1,84 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fullcalendar/core": "^6.0.3",
+    "@fullcalendar/daygrid": "^6.0.3",
+    "@fullcalendar/interaction": "^6.0.3",
+    "@fullcalendar/list": "^6.0.3",
+    "@fullcalendar/react": "^6.0.4",
+    "@fullcalendar/timegrid": "^5.11.0",
+    "@material-ui/styles": "^4.11.4",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/lab": "^5.0.0-alpha.132",
+    "@mui/material": "^5.14.1",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ag-grid-community": "^29.0.0",
+    "ag-grid-enterprise": "^29.0.0",
+    "ag-grid-react": "^29.0.0",
+    "antd": "^5.4.6",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "date-and-time": "^2.4.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "multiselect-react-dropdown": "^2.0.25",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.7.0",
+    "react-calendar": "^3.7.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.0.0",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-icons": "^4.7.1",
+    "react-paginate": "^8.1.4",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.0.5",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.0",
+    "react-to-print": "^2.14.0",
+    "react-toastify": "^9.1.3",
+    "react-tooltip": "^4.2.21",
+    "recharts": "^2.2.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
